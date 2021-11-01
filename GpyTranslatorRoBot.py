@@ -8,9 +8,9 @@ import sqlite3, string
 
 bot = Client(
     "APP_NAME",
-    api_id=,
-    api_hash="",
-    bot_token= ""
+    api_id="8823517",
+    api_hash="9cc67dd31e164fa1e686d74b842c371d",
+    bot_token= "2047842224:AAFZVa9kDQdHMt0ZbC3QEx1S8cIXYCV9g7E"
 )
 
 db = sqlite3.connect("userlanguages.db")
@@ -62,15 +62,15 @@ async def backtostart(bot, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕",  url="http://t.me/GpyTranslatorRoBot?startgroup=tr")
+                    InlineKeyboardButton("➕ Add me to a Group ➕",  url="https://t.me/ADNANEZOURI")
                 ],
                 [
                     InlineKeyboardButton("🔥 Help",  callback_data="help"),
                     InlineKeyboardButton("💚 Credits",  callback_data=b"Credits")
                 ],
                 [
-                    InlineKeyboardButton("⚠️ Source",  url="https://github.com/Mr-Dark-Prince/GpyTranslatorRoBot"),
-                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/mr_dark_prince"),
+                    InlineKeyboardButton("⚠️ Source",  url="https://t.me/ADNANEZOURI"),
+                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/ADNANEZOURI"),
                 ]
             ]
         )
@@ -79,19 +79,19 @@ async def backtostart(bot, query: CallbackQuery):
 ##Buttons
 @bot.on_message(filters.command("start") & filters.private)
 async def welcomemsg(bot, msg):
-    await msg.reply(f"Hello {msg.from_user.mention}\n \U0001F60E I am GpyTranslatorRoBot \ud83e\udd16 \n\nSend any text which you would like to translate.\n\n**Available commands:**\n⊙ /help - Show this help message\n⊙ /language - Set your main language\n⊙ /tr (language code) as reply to a message in groups\n💡Example: /tr en: translates something to english",
+    await msg.reply(f"Hello {msg.from_user.mention}\n \U0001F60E I am TranslatorRoBot \ud83e\udd16 \n\nSend any text which you would like to translate.\n\n**Available commands:**\n⊙ /help - Show this help message\n⊙ /language - Set your main language\n⊙ /tr (language code) as reply to a message in groups\n💡Example: /tr en: translates something to english",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕",  url="http://t.me/GpyTranslatorRoBot?startgroup=tr")
+                    InlineKeyboardButton("➕ Add me to a Group ➕",  url="https://t.me/ADNANEZOURI")
                 ],
                 [
                     InlineKeyboardButton("🔥 Help",  callback_data="help"),
                     InlineKeyboardButton("💚 Credits",  callback_data=b"Credits")
                 ],
                 [
-                    InlineKeyboardButton("⚠️ Source",  url="https://github.com/Mr-Dark-Prince/GpyTranslatorRoBot"),
-                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/mr_dark_prince"),
+                    InlineKeyboardButton("⚠️ Source",  url="https://t.me/ADNANEZOURI"),
+                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/ADNANEZOURI"),
                 ]
             ]
         )

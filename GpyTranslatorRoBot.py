@@ -8,8 +8,8 @@ import sqlite3, string
 
 bot = Client(
     "APP_NAME",
-    api_id=,
-    api_hash="",
+    api_id="8823517",
+    api_hash="9cc67dd31e164fa1e686d74b842c371d",
     bot_token= ""
 )
 
@@ -69,8 +69,8 @@ async def backtostart(bot, query: CallbackQuery):
                     InlineKeyboardButton("💚 Credits",  callback_data=b"Credits")
                 ],
                 [
-                    InlineKeyboardButton("⚠️ Source",  url="https://github.com/Mr-Dark-Prince/GpyTranslatorRoBot"),
-                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/mr_dark_prince"),
+                    InlineKeyboardButton("⚠️ Source",  url=""),
+                    InlineKeyboardButton("⛱️ Owner",  url=""),
                 ]
             ]
         )
@@ -90,8 +90,8 @@ async def welcomemsg(bot, msg):
                     InlineKeyboardButton("💚 Credits",  callback_data=b"Credits")
                 ],
                 [
-                    InlineKeyboardButton("⚠️ Source",  url="https://github.com/Mr-Dark-Prince/GpyTranslatorRoBot"),
-                    InlineKeyboardButton("⛱️ Owner",  url="https://t.me/mr_dark_prince"),
+                    InlineKeyboardButton("⚠️ Source",  url=""),
+                    InlineKeyboardButton("⛱️ Owner",  url="e"),
                 ]
             ]
         )
